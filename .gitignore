@@ -1,0 +1,12 @@
+paramiko/
+netmiko/
+data
+data/
+*.pem
+.vs
+command_engine/
+netmiko.log
+netmiko_global.log
+test2.py
+desktop.ini
+__pycache__
