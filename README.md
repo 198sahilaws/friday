@@ -1,1 +1,1 @@
-# friday
+# EC Debugging Script
