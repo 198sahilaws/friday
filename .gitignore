@@ -10,3 +10,5 @@ netmiko_global.log
 test2.py
 desktop.ini
 __pycache__
+Pipfile
+Pipfile.lock
