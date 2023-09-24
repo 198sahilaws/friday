@@ -136,7 +136,7 @@ def validate_user_input(menu_name):
             i = 0
             while i < 3:
                 user_input = input("Please select a valid option: ").strip()
-                if re.match(r"^[0-6]$", user_input):
+                if re.match(r"^[0-5]$", user_input):
                     return user_input
                 else:
                     print(f"'{user_input}' is not valid. Please enter a valid option..\n\n")
@@ -250,7 +250,7 @@ def menu(netconnect_obj):
         "3": "Collect Debug",
         "4": "Collect SMSTAT Counters",
         "5": "Collect Ouput of Common Commnands",
-        "6": "CC/BC Instance Details",
+        #"6": "CC/BC Instance Details",
         "0": "Exit"
     }
     
